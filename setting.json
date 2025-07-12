@@ -1,0 +1,1376 @@
+{
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
+  },
+  "better-comments.tags": [
+  
+    //category TODO
+    {
+      "tag": "!",// todo
+      "color": "#FF8C00", // オレンジ
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00", // オレンジ
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    //category QUESTION
+    {
+      "tag": "?",//question
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "question",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    
+    //category INFOMATION
+    {
+      "tag": ">",//info
+      "color": "#11b347",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "note",
+      "color": "#11b347",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "info",
+      "color": "#11b347",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    //category URL
+    {
+      "tag": "~",//question
+      "color": "#5353ea",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "url",
+      "color": "#5353ea",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    //category FIX
+    {
+      "tag": "^",//question
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "fix",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    //category HACK
+    {
+      "tag": "&",//info
+      "color": "#b5c711",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+
+    {
+      "tag": "hack",
+      "color": "#b5c711",
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    //category BUG
+    {
+      "tag": "%",//info
+      "color": "#c72011",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "bug",
+      "color": "#c72011", // ソフトな緑
+      "strikethrough": false,
+      "underline": false,
+      "bold": true,
+      "italic": false
+    },
+    // category CATEGORY
+    {
+      "tag": "<",//category
+      "color": "#a792EA", // 淡い紫（カテゴリ感）
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    
+  
+    {
+      "tag": "category",
+      "color": "#C792EA", // 淡い紫（カテゴリ感）
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+
+
+  ],
+  "todo-tree.general.tags": [
+    "!",
+    "todo",
+    "%",
+    "bug",
+    "^",
+    "fix",
+    "~",
+    "url",
+    "&",
+    "hack",
+    "?",
+    "question",
+    ">",
+    "note",
+    "info",
+    "<",
+    "category"
+  ],
+  "todo-tree.general.tagGroups": {
+
+    "TODO":[
+      "todo",
+      "!",
+    ],
+
+    "QUESTION":[
+      "question",
+      "?",
+    ],
+
+    "INFOMATION":[
+      ">",
+      "note",
+      "info",
+    ],
+
+    "CATEGORY":[
+      "category",
+      "<"
+    ],
+
+    "BUG":[
+      "bug",
+      "%",
+    ],
+    "HACK":[
+      "hack",
+      "&"
+    ],
+
+    "FIX":[
+      "fix",
+      "^",
+    ],
+
+    "URL":[
+      "url",
+      "~"
+    ]
+  
+  },
+  "todo-tree.highlights.defaultHighlight":{
+    "iconColour": "#d6b98e",
+    "background": "#cbcbcb66"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO":{
+      "icon":"checklist",
+    },
+    "QUESTION":{
+      "icon": "question"
+    },
+    "INFOMATION":{
+      "icon":"info"
+    },
+    "CATEGORY":{
+      "icon":"milestone"
+    },
+
+    "HACK": {
+      "icon": "plug",
+    }, 
+    
+    "BUG": {
+      "icon": "bug",
+    }, 
+    
+    "FIX": {
+      "icon": "check",
+    },
+    "URL": {
+      "icon": "globe",
+    },
+  },
+  "todo-tree.scopes": [
+    {
+      "name": "Production ",
+      "excludeGlobs": [
+        "**/tests/**"
+      ]
+    },
+  ],
+  "markdown-preview-enhanced.HTML5EmbedUseImageSyntax": false,
+  "editor.accessibilitySupport": "off",
+  "background.windowBackgrounds": [],
+  "background.autoInstall": false,
+  "background.sidebarBackgrounds": [],
+  "background.editorBackgrounds": [
+    "c:/Users/平野　達也/OneDrive/デスクトップ/works/myicons/**"
+  ],
+  "background.backgroundChangeTime": [
+    0,
+    1200,
+    0,
+    0
+  ],
+  "background.panelBackgrounds": [],
+  "background.backgroundOpacity": [
+    0.9,
+    0.9,
+    0.9,
+    0.8
+  ],
+  "background.backgroundAlignment": [
+    "Center Center",
+    "Center Left",
+    "Center Center",
+    "Center Left"
+  ],
+  "background.backgroundAlignmentValue": [
+    "50%",
+    "50%",
+    "50%",
+    "50%"
+  ],
+  "editor.fontSize": 20,
+     // エディタのシンタックスハイライト色のカスタマイズ
+  "editor.tokenColorCustomizations": {
+    // コメントの文字色
+    "comments": {
+      "foreground": "#ac3838"
+    },
+    // 関数名の色
+    "functions": "#005cc5",
+    // if, for などのキーワード
+    "keywords": "#f07582",
+    // 数値リテラルの色
+    "numbers": "#0f70b6",
+    // 文字列リテラルの色
+    "strings": "#22863a",
+    // 型（TypeScriptの型など）の色
+    "types": "#d58603",
+    // 変数名の色
+    "variables": "#e36209",
+
+    // より細かなスコープごとの色設定
+    "textMateRules": [
+      {
+        // JSONのキー部分の色
+        "scope": "support.type.property-name.json",
+        "settings": {
+          "foreground": "#907a23"
+        }
+      },
+      {
+        "scope": "keyword.operator", // ピリオドやコロンなど
+        "settings": {
+          "foreground": "#4c3d4c", // 例: マゼンタに変更
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "meta.embedded.block", // ピリオドやコロンなど
+        "settings": {
+          "foreground": "#7e437e", // 例: マゼンタに変更
+          "fontStyle": "bold"
+        }
+      },
+      {
+        // PowerShellの制御構文（if, goto など）
+        "scope": "keyword.control.ps1",
+        "settings": {
+          "foreground": "#ff557f",
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  },
+
+  // Git関連の設定
+  "git.openRepositoryInParentFolders": "never", // 親フォルダのGitを自動で開かない
+  "git.confirmSync": true,                     // 同期時の確認を無効化
+  "git.enableSmartCommit": true,                // 保存時に自動コミット有効化
+
+  // ワークベンチ（UI全体）の色のカスタマイズ
+  "workbench.colorCustomizations": {
+  // ---------------------- git ----------------------
+    "gitDecoration.addedResourceForeground": "#81b88b",          // 緑系（追加）
+    "gitDecoration.modifiedResourceForeground": "#e2c08d",       // 黄色系（変更）
+    "gitDecoration.deletedResourceForeground": "#c74e39",        // 赤系（削除）
+    "gitDecoration.renamedResourceForeground": "#3aaee0",        // 青系（リネーム）
+    "gitDecoration.stageModifiedResourceForeground": "#d7ba7d",  // 黄土色（ステージ変更）
+    "gitDecoration.stageDeletedResourceForeground": "#c74e39",   // 赤系（ステージ削除）
+    "gitDecoration.untrackedResourceForeground": "#9cdcfe",      // 水色（未追跡）
+    "gitDecoration.ignoredResourceForeground": "#000000",        // 暗緑（無視）!!!
+    "gitDecoration.conflictingResourceForeground": "#ff0000",    // 赤（競合）
+    "gitDecoration.submoduleResourceForeground": "#569cd6",      // 青（サブモジュール）
+    "git.blame.editorDecorationForeground": "#999999",            // 薄グレー（ブレーム）
+  // ---------------------- editor（エディタ） ----------------------
+    "icon.foreground": "#2f2f1e",                        // アイコンの色
+    "foreground": "#423f61",                             // UI全体の文字色
+    "datchBackground":"#bb800b45",
+    "editor.findMatchHighlightBackground": "#36c4e048",  // 検索一致ハイライト
+    
+    "editor.wordHighlightStroisabledForeground": "#aabaaa",                     // 無効化された文字の色:menuとかでよく見る
+    "editor.background": "#f4f4f4",                      // エディタ背景色
+    "editor.foreground": "#535252",                      // エディタのテキスト色
+    "editorGroup.border":"#ff04e2",
+    "editorStickyScroll.background": "#d9dfec",          // 固定スクロール行の背景
+    "editorStickyScrollHover.background":"#9fb9c267",
+    "editorLineNumber.activeForeground": "#814c4c",      // 現在行の行番号色
+    "editorLineNumber.foreground": "#998e8e",            // 行番号の色
+    "editorWidget.background": "#d4d6e7",                // 提案ウィジェット背景
+    "editorWidget.foreground": "#452e40",                // 提案ウィジェット文字
+    "editor.lineHighlightBackground": "#ffe0e000",       // 現在行の背景色:いらんくね？
+    "editor.lineHighlightBorder": "#28282800",           // 行ハイライトのボーダー:いらんでしょ
+    "editorSuggestWidget.foreground": "#938e8e",         // 補完候補の文字色
+    "editor.wordHighlightBackground": "#21ce3b2e",       // 単語ハイライトの背景色   // "editor.findMatchBackground": "#c4d55506",           // 検索一致箇所の背景
+
+    "editor.wordHighlightTextBackground":"#21ce3b2e",
+    "editor.findMatchBackground":"#ff000045",
+    "editor.findRangeHighlightBackground":"#dee7f466",
+    "editor.hoverHighlightBackground":"#95b8db40",
+    "search.resultsInfoForeground":"#adaad1b0",
+    "editorCursor.foreground":"#a3a7a67a",
+    "editorCursor.background":"#454242",
+    "editor.selectionBackground":"#bdd2e656",
+    "editor.inactiveSelectionBackground":"#bdd2e656",  
+    "editor.wordHighlightStrongBackground":"#b6d7eab8",
+    "textCodeBlock.background":"#2cea0f61",
+    "textBlockQuote.background":"#cbd9f1",
+    "textPreformat.background":"#7c8be4",
+    "editorGhostText.background":"#ff0000",
+    
+  // スクロールバー
+    "editorOverviewRuler.background":"#d5e4f0",
+    "editorOverviewRuler.border":"#345b9f",
+  // ---------------------- menu（上部メニュー） ----------------------
+    "menu.background": "#efe4e4",               // メニュー背景色
+    "menu.border": "#d1d5da",                   // 境界線の色
+    "menu.foreground": "#24292e",               // メニュー文字色
+    "menu.selectionBackground": "#97c1f1",      // 選択中メニュー背景
+    "menu.selectionBorder": "#3e2525",          // 選択中メニュー枠
+    "menu.selectionForeground": "#ffffff",      // 選択中メニュー文字色
+    "menu.separatorBackground": "#465b75",      // セパレーターの色
+    "list.invalidItemForeground": "#ddd8c2",    // 無効なアイテムの文字色
+
+  // ---------------------- menubar（メニューバー） ----------------------
+  "menubar.selectionBackground": "#a7b5c3",       // 選択時背景
+  "menubar.selectionBorder": "#0366d6",           // 選択時枠線
+  "menubar.selectionForeground": "#24292e",       // 選択時文字色
+
+  // ---------------------- titleBar（ウィンドウ上部） ----------------------
+  "titleBar.activeBackground": "#f6f8fa",
+  "titleBar.activeForeground": "#24292e",
+  "titleBar.inactiveBackground": "#d4dbe3",
+  "titleBar.inactiveForeground": "#24292e",
+  "titleBar.border": "#e1e4e8",
+
+  // ---------------------- activityBar（サイドバーのアイコン列） ----------------------
+  "activityBar.background": "#ffffff",
+  "activityBar.foreground": "#4ed397",
+  "activityBar.border": "#4bae20",
+  "activityBar.activeBackground": "#bc90d2",
+  "activityBar.activeFocusBorder": "#15b897",
+  "activityBar.inactiveForeground": "#9984b3",
+  "activityBarBadge.background": "#0078d4",
+
+  // ---------------------- button（ボタン類） ----------------------
+  "button.background": "#5399ea",
+  "button.foreground": "#faebeb",
+
+  // ---------------------- badge（通知バッジ） ----------------------
+  "badge.background": "#7a7ac6",
+  "badge.foreground": "#e7e1e1",
+
+  // ---------------------- sideBar（サイドバー本体） ----------------------
+  "sideBar.background": "#eaf0f4",
+  "sideBar.foreground": "#160136",
+  "sideBar.border": "#e1e4e8",
+  "sideBarSectionHeader.background": "#738773",
+  "sideBarSectionHeader.foreground": "#e5e4fc",
+  "sideBarTitle.background": "#dde5ef",
+  "sideBarTitle.foreground": "#13447d",
+  "sideBar.dropBackground": "#53595d80",
+
+  // ---------------------- statusBar（一番下） ----------------------
+  "statusBar.background": "#e5efde",
+  "statusBar.foreground": "#24292e",
+  "statusBar.noFolderBackground": "#e1e4e8",
+  "statusBar.debuggingBackground": "#005cc5",
+  "statusBar.border": "#0a0a3b",
+
+  // ---------------------- tabBar（タブ） ----------------------
+  "editorGroupHeader.tabsBackground": "#e1e9f1",
+  "tab.activeBackground": "#d8e6db",
+  "tab.activeForeground": "#0366d6",
+  "tab.border": "#797979",
+  "tab.hoverBackground": "#d2cece",
+  "tab.unfocusedHoverBackground": "#d6d6dc",
+  "tab.inactiveBackground": "#f6f8fa",
+  "tab.inactiveForeground": "#041325",
+  "tab.activeBorder": "#f4f4f5",
+  "tab.unfocusedActiveBackground": "#bfcfc2",
+  "tab.unfocusedInactiveBackground": "#f1f5ff91",
+
+  // ---------------------- input（入力欄） ----------------------
+  "input.background": "#e1c5fe56",
+  "input.foreground": "#2b2222",
+  "input.placeholderForeground": "#8046ed",
+  "inputOption.activeBackground": "#0d0f1182",
+
+  // ---------------------- breadcrumb（パンくずリスト） ----------------------
+  "breadcrumb.foreground": "#5850f0",
+  "breadcrumb.background": "#dbe7e7",
+  "breadcrumb.focusForeground": "#a90aff",
+  "breadcrumb.activeSelectionForeground": "#c7e0ce",
+  "breadcrumbPicker.background": "#a4c6a9",
+  "checkbox.background":"#ebdcdc",
+  "checkbox.foreground":"#270b0b",
+
+
+  // ---------------------- panel（出力・ターミナルなど） ----------------------
+  "panelTitle.activeForeground":"#5e0b0b",
+  "panelSectionHeader.border": "#d1d2d3",
+  "panel.foregrand": "#a4a4a5",
+  "panel.background": "#e1e4f6",
+  "panelSection.border": "#d6caca",
+  "outputView.background": "#dad0d0",
+  "panelSectionHeader.background": "#7846db33",
+  "panelTitle.inactiveForeground": "#da5252",
+  "terminal.foreground": "#293468",
+  "terminal.background": "#e1e4f6",
+  "terminal.ansiBlack": "#625353",
+  "terminal.ansiBlue": "#3c476d",//notice
+  "terminal.ansiCyan": "#4ca77b",//文字列
+  "terminal.ansiGreen": "#075c21",
+  "terminal.ansiMagenta": "#634069",
+  "terminal.ansiRed": "#d38888",//pythonのなんか
+  "terminal.ansiWhite": "#f6f6f6",
+  "terminal.ansiYellow": "#9dba45",
+  "terminal.ansiBrightBlack": "#336575b5",//"引数"
+  "terminal.ansiBrightBlue": "#9dc0f0",
+  "terminal.ansiBrightCyan": "#3f9a71",
+  "terminal.ansiBrightGreen": "#62c96d",
+  "terminal.ansiBrightMagenta": "#cb8cd3", 
+  "terminal.ansiBrightRed": "#e22929",
+  "terminal.ansiBrightWhite": "#95b3f3",//integer
+  "terminal.ansiBrightYellow": "#9e880c", //main exe
+  "terminal.selectionBackground": "#bcbfc8",
+  "terminal.inactiveSelectionBackground":"#bfc3c9",
+  "terminalCursor.foreground": "#323d3284",
+  //dropdown 見開きリスト
+  "dropdown.border":"#ceacac",
+  "dropdown.foreground":"#cccccc",
+  "dropdown.listBackground": "#d7e8e6",
+  "settings.dropdownForeground":"#252936",
+  "settings.dropdownBackground":"#b6ece675",
+  //inputvalidation インプットボックスのエラーウィジェット
+  "inputValidation.errorBackground":"#e2baba",
+  // ---------------------- list（リスト系UI） ----------------------
+  "list.hoverBackground": "#b3decf55",
+  "list.activeSelectionBackground": "#748c9e92",
+  "listFilterWidget.background": "#c2c8ee",
+  "list.inactiveSelectionBackground": "#d1e0f8",
+  "list.inactiveSelectionForeground":"#403a8a",
+  "list.dropBackground":"#8cbad8",
+  
+  //その他
+  "selection.background": "#e34d4d8d",
+  "toolbar.hoverBackground": "#6ba2d65a",
+
+  // quick input,pikker Group コマンドパレット
+  "quickInput.background": "#cbcbeb",
+  "quickInput.foreground": "#404246",
+  "quickInputTitle.background": "#313244",
+  "quickInputList.focusBackground": "#b1bbc4",
+  "quickInputList.focusForeground": "#ffffff",
+  "pickerGroup.foreground": "#719add",
+  "pickerGroup.border": "#757ec6",
+
+  // ---------------------- notifications（通知） ----------------------
+  "notifications.foreground": "#4d4141",
+  "notifications.background": "#efd1f0",
+  //設定
+  "settings.headerForeground":"#195ede",
+
+  "welcomePage.tileBackground":"#cfbcbc",
+  "welcomePage.progress.background":"#e1c5fe56",
+
+  "editorBracketHighlight.foreground1":"#c45703",
+  },
+  "window.menuBarVisibility": "visible",
+  "window.commandCenter": false,
+  
+  "files.autoSave": "afterDelay",
+  
+  "window.zoomLevel": 0.8,
+  "background.useInvertedOpacity": true,
+  "python.createEnvironment.trigger": "off",
+  "[xml]": {
+    "editor.tabSize": 2
+  },
+  "[typ]":{
+    "editor.tabSize": 2
+  },
+  "files.associations": {
+    "*.code-profile": "json",
+    "*.typ":"typst",
+  },
+  "better-comments.multilineComments": false,
+  "editor.fontFamily": "azuki_font, Consolas, 'Courier New', monospace",
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "background.backgroundSizeValue": [
+    "90%",
+    "100%",
+    "100%",
+    "100%"
+  ],
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "search.useReplacePreview": false,
+  "[powershell]": {
+    "files.encoding": "utf8bom"
+  },
+  "tinymist.preview.scrollSync": "never",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "editor.indentSize": "tabSize",
+  "textlint.configPath": "C:/work/oasobi2/_mylib/.textlintrc",
+  "linter.linters": {
+
+    "brakeman": {
+      "capabilities": [],
+      "command": [
+        [
+          "$isBundler",
+          "bundle",
+          "exec"
+        ],
+        "brakeman",
+        "--format",
+        "json",
+        "--no-progress",
+        "--quiet",
+        "--absolute-paths",
+        [
+          "$config",
+          "--config-file",
+          "$config"
+        ],
+        "$rootDir"
+      ],
+      "configFiles": [
+        "brakeman.yml",
+        "config/brakeman.yml",
+        ".brakeman/config.yml"
+      ],
+      "enabled": true,
+      "languages": [
+        "ruby",
+        "ruby-puma",
+        "ruby-bundler",
+        "ruby-test",
+        "erb"
+      ],
+      "name": "brakeman",
+      "url": "https://brakemanscanner.org/",
+      "when": [
+        "$isRails"
+      ]
+    },
+    "cargo-clippy": {
+      "capabilities": [
+        "fix-inline",
+        "ignore-file"
+      ],
+      "command": [
+        "cargo-clippy",
+        "$file",
+        "--no-deps",
+        "--message-format",
+        "json",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ]
+      ],
+      "configFiles": [
+        "clippy.toml",
+        ".clippy.toml"
+      ],
+      "enabled": true,
+      "languages": [
+        "rust"
+      ],
+      "name": "cargo-clippy",
+      "url": "https://doc.rust-lang.org/clippy/"
+    },
+    "credo": {
+      "capabilities": [
+        "ignore-line",
+        "ignore-file"
+      ],
+      "command": [
+        "mix",
+        "credo",
+        "--format",
+        "json",
+        "--read-from-stdin",
+        "--all-priorities",
+        "$file"
+      ],
+      "configFiles": [],
+      "enabled": true,
+      "languages": [
+        "elixir"
+      ],
+      "name": "credo",
+      "url": "https://hexdocs.pm/credo/"
+    },
+    "dart": {
+      "capabilities": [],
+      "command": [
+        "dart",
+        "analyze",
+        "$file"
+      ],
+      "configFiles": [],
+      "enabled": true,
+      "languages": [
+        "dart"
+      ],
+      "name": "dart",
+      "url": "https://dart.dev/tools/linter-rules"
+    },
+    "erb_lint": {
+      "capabilities": [],
+      "command": [
+        [
+          "$isBundler",
+          "bundle",
+          "exec"
+        ],
+        "erblint",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "--format",
+        "json",
+        "$file"
+      ],
+      "configFiles": [
+        ".erb-lint.yml"
+      ],
+      "enabled": true,
+      "languages": [
+        "erb"
+      ],
+      "name": "erb_lint",
+      "url": "https://github.com/Shopify/erb-lint"
+    },
+    "eslint": {
+      "capabilities": [
+        "ignore-line",
+        "ignore-file",
+        "fix-one",
+        "fix-all",
+        "fix-inline"
+      ],
+      "command": [
+        "eslint",
+        "--format",
+        "json",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        [
+          "$debug",
+          "--loglevel",
+          "debug",
+          "--debug"
+        ],
+        [
+          "$fixAll",
+          "--fix-dry-run"
+        ],
+        [
+          "$fixOne",
+          "--fix-dry-run"
+        ],
+        "--stdin-filename",
+        "$file",
+        "--stdin"
+      ],
+      "configFiles": [
+        ".eslintrc.js",
+        ".eslintrc.cjs",
+        ".eslintrc.yaml",
+        ".eslintrc.yml",
+        ".eslintrc.json",
+        ".eslintrc"
+      ],
+      "enabled": true,
+      "languages": [
+        "javascript",
+        "jsx",
+        "typescript",
+        "typescriptreact"
+      ],
+      "name": "eslint",
+      "url": "https://eslint.org"
+    },
+    "gherkin-lint": {
+      "capabilities": [],
+      "command": [
+        "gherkin-lint",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "--format",
+        "json",
+        "$file"
+      ],
+      "configFiles": [
+        ".gherkin-lintrc"
+      ],
+      "enabled": true,
+      "languages": [
+        "cucumber"
+      ],
+      "name": "gherkin-lint",
+      "url": "https://github.com/vsiakka/gherkin-lint"
+    },
+    "hadolint": {
+      "capabilities": [
+        "ignore-line"
+      ],
+      "command": [
+        "hadolint",
+        "--format",
+        "json",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "-"
+      ],
+      "configFiles": [
+        ".hadolint.yml",
+        ".hadolint.yaml"
+      ],
+      "enabled": true,
+      "languages": [
+        "dockerfile"
+      ],
+      "name": "hadolint",
+      "url": "https://github.com/hadolint/hadolint"
+    },
+    "language-tool": {
+      "capabilities": [],
+      "command": [
+        "languagetool",
+        "--json",
+        "--autoDetect"
+      ],
+      "configFiles": [],
+      "enabled": true,
+      "languages": [
+        "markdown",
+        "html",
+        "plaintext"
+      ],
+      "name": "language-tool",
+      "url": "https://github.com/languagetool-org/languagetool"
+    },
+    "luacheck": {
+      "capabilities": [],
+      "command": [
+        "luacheck",
+        "--formatter",
+        "plain",
+        "--codes",
+        "--ranges",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "-"
+      ],
+      "configFiles": [
+        ".luacheckrc"
+      ],
+      "enabled": true,
+      "languages": [
+        "lua"
+      ],
+      "name": "luacheck",
+      "url": "https://luacheck.readthedocs.io/en/stable/"
+    },
+    "markdownlint": {
+      "capabilities": [
+        "fix-inline"
+      ],
+      "command": [
+        "markdownlint",
+        "--json",
+        [
+          "$fixAll",
+          "--fix"
+        ],
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "--stdin"
+      ],
+      "configFiles": [
+        ".markdownlint.json",
+        ".markdownlint.yaml",
+        ".markdownlint.yml",
+        ".markdownlintrc"
+      ],
+      "enabled": true,
+      "languages": [
+        "markdown"
+      ],
+      "name": "markdownlint",
+      "url": "https://github.com/DavidAnson/markdownlint"
+    },
+    "php-code-sniffer": {
+      "capabilities": [],
+      "command": [
+        "phpcs",
+        "--report",
+        "json",
+        [
+          "$config",
+          "--standard",
+          "$config"
+        ],
+        [
+          "!$config",
+          "--standard",
+          "PSR12"
+        ],
+        "--stdin-path",
+        "$file",
+        "-q",
+        "-"
+      ],
+      "configFiles": [
+        ".phpcs.xml",
+        "phpcs.xml",
+        ".phpcs.xml.dist",
+        "phpcs.xml.dist"
+      ],
+      "enabled": true,
+      "languages": [
+        "php"
+      ],
+      "name": "php-code-sniffer",
+      "url": "https://github.com/squizlabs/PHP_CodeSniffer"
+    },
+    "proselint": {
+      "capabilities": [
+        "fix-inline"
+      ],
+      "command": [
+        "proselint",
+        "--json",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "-"
+      ],
+      "configFiles": [
+        ".proselintrc"
+      ],
+      "enabled": true,
+      "languages": [
+        "markdown",
+        "html",
+        "plaintext"
+      ],
+      "name": "proselint",
+      "url": "https://github.com/amperser/proselint/"
+    },
+    "pylint": {
+      "capabilities": [
+        "ignore-file"
+      ],
+      "command": [
+        "pylint",
+        "--from-stdin",
+        "--output-format",
+        "json",
+        [
+          "$config",
+          "--rcfile",
+          "$config"
+        ],
+        "$file"
+      ],
+      "configFiles": [
+        ".pylintrc"
+      ],
+      "enabled": true,
+      "languages": [
+        "python"
+      ],
+      "name": "pylint",
+      "url": "https://www.pylint.org"
+    },
+    "reek": {
+      "capabilities": [
+        "ignore-line"
+      ],
+      "command": [
+        "reek",
+        "--format",
+        "json",
+        "--no-progress",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "--stdin-filename",
+        "$file"
+      ],
+      "configFiles": [
+        ".reek.yml"
+      ],
+      "enabled": true,
+      "languages": [
+        "ruby",
+        "ruby-test",
+        "ruby-puma",
+        "ruby-bundler"
+      ],
+      "name": "reek",
+      "url": "https://github.com/troessner/reek"
+    },
+    "rubocop": {
+      "capabilities": [
+        "ignore-eol",
+        "fix-category",
+        "fix-all"
+      ],
+      "command": [
+        [
+          "$isBundler",
+          "bundle",
+          "exec"
+        ],
+        "rubocop",
+        [
+          "$lint",
+          "--format",
+          "json",
+          "--extra-details"
+        ],
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        [
+          "$debug",
+          "--debug"
+        ],
+        [
+          "$fixAll",
+          "--auto-correct-all",
+          "--stderr"
+        ],
+        [
+          "$fixCategory",
+          "--auto-correct-all",
+          "--only",
+          "$code",
+          "--stderr"
+        ],
+        "--stdin",
+        "$file"
+      ],
+      "configFiles": [
+        ".rubocop.yml"
+      ],
+      "enabled": true,
+      "languages": [
+        "ruby",
+        "ruby-test",
+        "ruby-puma",
+        "ruby-bundler"
+      ],
+      "name": "rubocop",
+      "url": "https://rubocop.org"
+    },
+    "ruby": {
+      "capabilities": [],
+      "command": [
+        "ruby",
+        "-c",
+        "-w"
+      ],
+      "configFiles": [],
+      "enabled": true,
+      "languages": [
+        "ruby",
+        "ruby-test",
+        "ruby-puma",
+        "ruby-bundler"
+      ],
+      "name": "ruby",
+      "url": "https://www.ruby-lang.org"
+    },
+    "shellcheck": {
+      "args": {
+        "$zsh": {
+          "extensions": [
+            ".zsh"
+          ],
+          "shebangs": [
+            "/bin/zsh",
+            "/usr/bin/zsh",
+            "/usr/local/bin/zsh",
+            "/usr/bin/env zsh"
+          ]
+        }
+      },
+      "capabilities": [],
+      "command": [
+        "shellcheck",
+        "--format",
+        "json",
+        "--enable",
+        "all",
+        "-"
+      ],
+      "configFiles": [],
+      "enabled": true,
+      "languages": [
+        "shellscript",
+        "bash"
+      ],
+      "name": "shellcheck",
+      "url": "https://github.com/koalaman/shellcheck",
+      "when": [
+        "!$zsh"
+      ]
+    },
+    "sqlfluff": {
+      "args": {
+        "$mysql": {
+          "languages": [
+            "mysql"
+          ]
+        },
+        "$postgres": {
+          "languages": [
+            "postgres"
+          ]
+        }
+      },
+      "capabilities": [
+        "fix-all",
+        "ignore-eol"
+      ],
+      "command": [
+        "sqlfluff",
+        [
+          "$lint",
+          "lint",
+          "--format",
+          "json"
+        ],
+        [
+          "$fixAll",
+          "fix"
+        ],
+        [
+          "$postgres",
+          "--dialect",
+          "postgres"
+        ],
+        [
+          "$mysql",
+          "--dialect",
+          "mysql"
+        ],
+        "-"
+      ],
+      "configFiles": [
+        ".sqlfluff"
+      ],
+      "enabled": true,
+      "languages": [
+        "mysql",
+        "postgres",
+        "jinja-sql"
+      ],
+      "name": "sqlfluff",
+      "url": "https://docs.sqlfluff.com/en/stable/index.html"
+    },
+    "stylelint": {
+      "capabilities": [
+        "fix-all"
+      ],
+      "command": [
+        "stylelint",
+        "--formatter",
+        "json",
+        [
+          "$fixAll",
+          "--fix"
+        ],
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "--stdin-filename",
+        "$file",
+        "--stdin"
+      ],
+      "configFiles": [
+        "stylelint.config.js",
+        ".stylelintrc.json",
+        ".stylelintrc.yml",
+        ".stylelintrc.yaml",
+        ".stylelintrc.js"
+      ],
+      "enabled": true,
+      "languages": [
+        "css",
+        "css-in-js",
+        "html",
+        "less",
+        "markdown",
+        "sass",
+        "scss",
+        "sugarss"
+      ],
+      "name": "stylelint",
+      "url": "https://stylelint.io"
+    },
+    "swiftlint": {
+      "capabilities": [
+        "ignore-line",
+        "ignore-file"
+      ],
+      "command": [
+        "swiftlint",
+        "--use-stdin",
+        "--reporter",
+        "json",
+        [
+          "$fixAll",
+          "--fix",
+          "--format"
+        ],
+        [
+          "$config",
+          "--config",
+          "$config"
+        ]
+      ],
+      "configFiles": [
+        ".swiftlint.yml",
+        ".swiftlint.yaml"
+      ],
+      "enabled": true,
+      "languages": [
+        "swift"
+      ],
+      "name": "swiftlint",
+      "url": "https://realm.github.io/SwiftLint/"
+    },
+    "textlint": {
+      "capabilities": [
+        "fix-inline"
+      ],
+      "command": [
+        "textlint",
+        "--format",
+        "json",
+        [
+          "$debug",
+          "--debug"
+        ],
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "--stdin",
+        "--stdin-filename",
+        "$file"
+      ],
+      "configFiles": [
+        ".textlintrc",
+        ".textlintrc.js",
+        ".textlintrc.json",
+        ".textlintrc.yaml",
+        ".textlintrc.yml"
+      ],
+      "enabled": true,
+      "languages": [
+        "markdown",
+        "plaintext",
+        "html"
+      ],
+      "name": "textlint",
+      "url": "https://textlint.github.io"
+    },
+    "vale": {
+      "capabilities": [],
+      "command": [
+        "vale",
+        "--output",
+        "JSON",
+        [
+          "$config",
+          "--config",
+          "$config"
+        ],
+        "--ext",
+        "$extension"
+      ],
+      "configFiles": [
+        ".vale.ini"
+      ],
+      "enabled": true,
+      "languages": [
+        "markdown",
+        "plaintext",
+        "html"
+      ],
+      "name": "vale",
+      "url": "https://github.com/errata-ai/vale"
+    },
+    "yamllint": {
+      "capabilities": [
+        "ignore-line"
+      ],
+      "command": [
+        "yamllint",
+        "--format",
+        "parsable",
+        [
+          "$config",
+          "--config-file",
+          "$config"
+        ],
+        "-"
+      ],
+      "configFiles": [
+        ".yamllint.yml",
+        ".yamllint.yaml",
+        ".yamllint"
+      ],
+      "enabled": true,
+      "languages": [
+        "yaml"
+      ],
+      "name": "yamllint",
+      "url": "https://github.com/adrienverge/yamllint"
+    }
+  },
+  "textlint.targetPath": "**/*.typ",
+  "textlint.trace": "verbose",
+  "textlint.languages": [
+    "typst",
+    "typ"
+  ],
+  
+}
